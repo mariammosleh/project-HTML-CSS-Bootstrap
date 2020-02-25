@@ -56,6 +56,56 @@ padding: 60px  0 0 0;
 #header-section a .title-icon{
     font-size: 18px;
 }
-.bottom-img{
-    width: 100%;
+
+
+/********Section services*********/
+.service-img{
+    width: 80px;
+    margin-top: 20px;
 }
+.services{
+    padding: 20px;
+    margin-top: 20px;
+}
+.services h4
+{
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.services-title::before{
+    content: "";
+    margin: auto;
+    height: 4px;
+    width: 180px;
+    background-color:#a50a69 ;
+    display: block;
+    transform: translateY(60px);
+}
+.services-title::after{
+    content: "";
+    margin: auto;
+    height: 7px;
+    width: 60px;
+    background-color:#a50a69 ;
+    display: block;
+    transform: translateY(16px);
+}
+#services .btn-primary{
+    background-image: linear-gradient(to right, #a50a69, #520632);
+border-radius: 20px;
+outline: none !important;
+padding:  8px 25px ;
+    border: none ;
+
+}
+.btn{
+    outline: none !important;
+
+}
+.btn1{
+    outline: none;
+
+
+}
+/********end Section services*********/
