@@ -172,14 +172,12 @@ color:#fff;
     margin-bottom: 15px;
 }
 svg{
-    height: 100px ;
+    height: 130px ;
     width: 100%;
 }
-/*.box{
-    margin-top: -100px;
-}*/
+
 .footer-box{
-    padding: 0 20px;
+    padding: 20px;
 }
 .footer-box .fas{
     margin: 0 10px 10px 0;
@@ -195,7 +193,18 @@ svg{
 form .form-control{
     border: none;
     box-shadow: none !important;
-    margin: 20px 0;
+    margin: 15px 0;
     max-width: 65%;
+}
+footer .btn-primary
+{
+    background-image: linear-gradient(to right, #a50a69, #520632);
+box-shadow: none !important;
+border: none;
+border-radius: 0px;
+margin-top: 10px;
 
+}
+hr{
+    background-color: #fff;
 }
