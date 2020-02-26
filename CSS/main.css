@@ -59,8 +59,11 @@ padding: 60px  0 0 0;
 
 
 /********Section services*********/
+#services{
+    padding:0px 0px 80px 0px ;
+}
 .service-img{
-    width: 80px;
+    width: 100px;
     margin-top: 20px;
 }
 .services{
@@ -71,9 +74,12 @@ padding: 60px  0 0 0;
 {
     text-transform: uppercase;
     margin-top: 20px;
+    
 }
-
-.services-title::before{
+.services p{
+    font-size: 17px;
+}
+.title::before{
     content: "";
     margin: auto;
     height: 4px;
@@ -82,7 +88,7 @@ padding: 60px  0 0 0;
     display: block;
     transform: translateY(60px);
 }
-.services-title::after{
+.title::after{
     content: "";
     margin: auto;
     height: 7px;
@@ -96,16 +102,100 @@ padding: 60px  0 0 0;
 border-radius: 20px;
 outline: none !important;
 padding:  8px 25px ;
-    border: none ;
-
+border: none;
+box-shadow: none;
+margin-top: 15px;
 }
-.btn{
-    outline: none !important;
 
-}
-.btn1{
-    outline: none;
-
-
-}
 /********end Section services*********/
+/*********section about us*******/
+#about-us{
+    background-color: #fdfdfd;
+    padding: 50px 0;
+}
+#about-us .about-title{
+    font-size: 35px;
+    font-weight: 500;
+    margin-top: 50px;
+}
+#about-us ul{margin-left:20px ;}
+#about-us ul li{
+margin: 10px 0;
+}
+.about-us{
+    padding-top: 50px;
+}
+/*******testimonials********/
+#testimonials{
+    margin: 100px 0;
+}
+.testimonials{
+    border-left:4px solid#a50a69 ;
+    margin: 70px 0 0 20px;
+}
+.testimonials img
+{
+    width: 65px;
+    height: 65px;
+    margin: 0 10px;
+}
+.testimonials .about-user{
+    display: inline-block;
+    margin: 10px 0 0 0;
+    line-height: 1.2;
+}
+/*****social icons********/
+#social-icons{
+    background-color: #fdfdfd;
+    padding: 100px 0;
+}
+#social-icons p{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+#social-icons img{
+    width: 50px;
+    transition:all .5s ease;
+    margin-left:10px ;
+}
+.social-media-icons a:hover img{
+    transform: translateY(-10px);
+}
+/************footer section*************/
+#footer-section{
+    background-image: linear-gradient(to right, #a50a69, #520632);
+color:#fff;
+}
+#footer-section img{
+    height: 60px;
+    margin-bottom: 15px;
+}
+svg{
+    height: 100px ;
+    width: 100%;
+}
+/*.box{
+    margin-top: -100px;
+}*/
+.footer-box{
+    padding: 0 20px;
+}
+.footer-box .fas{
+    margin: 0 10px 10px 0;
+    height: 30px;
+    width: 30px;
+    font-size: 18px;
+    line-height: 1.7;
+    text-align: center;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, #a50a69, #520632);
+
+}
+form .form-control{
+    border: none;
+    box-shadow: none !important;
+    margin: 20px 0;
+    max-width: 65%;
+
+}
